@@ -38,9 +38,10 @@ public class ContaTerminal {
 
             System.out.println("");
 
-            System.out.println("Informe o saldo da conta:");
-            String saldoStr = dados.nextLine();
-            saldo = Double.parseDouble(saldoStr);
+            System.out.print("Informe o saldo da conta:");
+            saldo= dados.nextDouble();
+           //  String saldoStr = dados.nextLine();
+            //saldo = Double.parseDouble(saldoStr);
 
         System.out.println("Olá " + nomeCliente + ", obrigado por criar uma conta em nosso banco, sua agência é " + agencia + ", conta " + numeroConta + " e seu saldo " + saldo + " já está disponível para saque");
    
